@@ -1,0 +1,45 @@
+package lesson8.practiseTask;
+
+public class Product {
+
+    private String name;
+   private double price;
+   private int stock;
+
+    public Product(String name, double price, int stock) {
+        this.name = name;
+        this.price = price;
+        this.stock = stock;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+
+
+    public void showInfo(){
+        System.out.println("Product : " + getName() + " Price:  " + getPrice() + " AZN , Stock: " + getStock() + " units");
+    }
+
+    //"Product: [name], Price: [price] AZN, Stock: [stock] units."
+}

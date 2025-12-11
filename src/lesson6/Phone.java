@@ -1,8 +1,9 @@
 package lesson6;
 
 public class Phone {
-    String brand;
-    String model;
+
+
+    String brand, model;
 
 
     public Phone(String brand, String model) {
@@ -10,7 +11,7 @@ public class Phone {
         this.model = model;
     }
 
-
+    //
     @Override
     public String toString() {
 //        return "Phone{" +
@@ -18,6 +19,9 @@ public class Phone {
 //                ", model='" + model + '\'' +
 //                '}';
 
-        return  brand + " " + model;
+        return brand + " " + model;
     }
+
+
 }
+

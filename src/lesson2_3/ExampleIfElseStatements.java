@@ -1,5 +1,7 @@
 package lesson2_3;
 
+import lesson6.Human;
+
 import java.io.FileWriter;
 import java.util.Scanner;
 
@@ -120,6 +122,9 @@ public class ExampleIfElseStatements {
             default:
                 System.out.println();
         }
+
+
+        Human human = new Human();
 
 
     }
