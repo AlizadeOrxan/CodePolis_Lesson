@@ -2,6 +2,7 @@ package onlineMeeting.abstractExamples;
 
 import java.sql.SQLOutput;
 import java.util.InputMismatchException;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -45,7 +46,9 @@ public class Main {
         // code block
 
 
-            throw new UserNotException("User not found with id " + id);
+
+
+
 
 
 
